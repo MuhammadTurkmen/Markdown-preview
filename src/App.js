@@ -5,7 +5,7 @@ function App() {
   const [markdown, setMarkdown] = useState('## markdown preview')
   return <main>
     <section className="martkdown">
-      <textarea className='input'></textarea>
+      <textarea className='input' value={markdown} onChange={(e) => setMarkdown(e.target.value)}></textarea>
     </section>
   </main>
 }
