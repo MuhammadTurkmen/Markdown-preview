@@ -11,7 +11,7 @@ function App() {
           {markdown} 
         </ReactMarkdown>   
       </article>
-    </section>
+    </section> 
   </main>  
 }
 
