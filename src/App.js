@@ -6,7 +6,7 @@ function App() {
   return <main>
     <section className="markdown">
       <textarea className='input' value={markdown} onChange={(e) => setMarkdown(e.target.value)}></textarea>
-      <article className='result'>
+      <article className='result'> 
         <ReactMarkdown>
           {markdown} 
         </ReactMarkdown>  
