@@ -9,7 +9,7 @@ function App() {
       <article className='result'>
         <ReactMarkdown>
           {markdown}
-        </ReactMarkdown> 
+        </ReactMarkdown>  
       </article>
     </section>
   </main>
