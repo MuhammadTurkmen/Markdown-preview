@@ -12,7 +12,7 @@ function App() {
         </ReactMarkdown>   
       </article>
     </section>
-  </main>
+  </main> 
 }
 
 export default App
